@@ -1,0 +1,27 @@
+{
+  "name": "dynamite-blocks",
+  "version": "1.0.0",
+  "description": "Dynamic Gutenberg Blocks for dynamic developers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubshinde/dynamite-blocks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubshinde/dynamite-blocks/issues"
+  },
+  "homepage": "https://github.com/shubshinde/dynamite-blocks#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^12.6.0"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^6.25.0",
+    "@wordpress/i18n": "^3.17.0"
+  }
+}
