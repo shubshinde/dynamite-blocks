@@ -99,7 +99,6 @@ final class DynamiteBlocks_Class
             ],
             filemtime(DYNAMITE_BLOCKS_PLUGIN_PATH . '/build/index.js'),
             true
-
         );
     }
 
@@ -116,7 +115,7 @@ final class DynamiteBlocks_Class
             false,
             'all'
         );
-
+        // Include Admin Area Style.
         wp_enqueue_style(
             'dynamite-admin-backend-style',
             DYNAMITE_BLOCKS_PLUGIN_URL . '/assets/css/dynamite-backend.css',
@@ -124,11 +123,11 @@ final class DynamiteBlocks_Class
             false,
             'all'
         );
-
+        // Include Admin Area Script.
         wp_enqueue_script(
             'dynamite-admin-backend-script',
             DYNAMITE_BLOCKS_PLUGIN_URL . '/assets/js/dynamite-backend.js',
-            wp_rand(1, 1000000),
+            filemtime(DYNAMITE_BLOCKS_PLUGIN_PATH . '/assets/js/dynamite-backend.js'),
             true
         );
     }

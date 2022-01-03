@@ -1,3 +1,3 @@
 
 // Importing All Blocks.
-import './blocks/first-block';
+import './blocks/heading';

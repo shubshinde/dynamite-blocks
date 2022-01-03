@@ -1,0 +1,9 @@
+.wp-block, .dynamite-wrapper{
+    min-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dynamite-blocks .components-text-control__input{
+    border: #99999973 1px solid;
+}
